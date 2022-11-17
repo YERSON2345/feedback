@@ -28,11 +28,11 @@ const Feedbackitem = () =>{
             <div className="text-dislay">
                {text} 
             </div>
-            <button onClick={addNota}>
+            <button className="btn"onClick={addNota}>
                 Subir nota
             </button>
-            <br></br>
-            <button onClick={resNota}>
+            <br></br><br />
+            <button className="btn" onClick={resNota}>
                 Restar nota
             </button>
         </div>
